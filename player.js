@@ -149,7 +149,7 @@
 
             _.defaults = {
                 this        : this,
-                thisSelector: this.selector.toString(),
+                thisSelector: '.mediPlayer',
                 playObj     : 'playable',
                 progress    : '.progress-bar',
                 precache    : '.precache-bar',
